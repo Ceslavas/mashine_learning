@@ -1,0 +1,9 @@
+joblib
+numpy
+PyYAML
+pip
+scikit-learn
+scipy
+setuptools
+threadpoolctl
+xgboost

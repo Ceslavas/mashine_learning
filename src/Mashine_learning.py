@@ -217,7 +217,7 @@ def main() -> None:
     # Loading configuration from a file
     with open('./config.yaml', 'r') as file:
         config = yaml.safe_load(file)
-    
+
     test_size: float    = config['general']['test_size']
     random_state: int   = config['general']['random_state']
     cv: int             = config['general']['cv']

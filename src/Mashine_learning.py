@@ -215,7 +215,7 @@ def process_iris_data(test_size: float, random_state: int) -> tuple:
 # Main function to run the program
 def main() -> None:
     # Loading configuration from a file
-    with open(r'config.yaml', 'r') as file:
+    with open('./config.yaml', 'r') as file:
         config = yaml.safe_load(file)
     
     test_size: float    = config['general']['test_size']
